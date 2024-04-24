@@ -1,0 +1,131 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  background-color: hsl(225, 100%, 94%) ;
+  font-family: 'Red Hat Display',sans-serif;
+}
+.container{
+  min-height: 30vh;
+  width: 350px;
+  margin: 8rem 10rem 5rem 38rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: white ;
+  border-radius: 20px;
+}
+.container .dancer{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 40px;
+  object-fit: cover;
+}
+.container .para{
+  text-align: center;
+  
+}
+.container .para h2{
+  margin-bottom: 16px;
+  font-weight: 900;
+}
+.container .para p{
+  padding: 1rem 1rem 1rem 1rem;
+  color: hsl(224, 23%, 55%);
+}
+/*.container .price{
+  width: 300px;
+  height: 100px;
+  margin-left: 25px;
+  background-color: aqua;
+  margin-bottom: 30px;
+}
+.container .price img{
+  margin-top: 20px;
+}
+.container .price a{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: -30px;
+}
+.container .price .s1{
+ margin: auto;
+
+}
+.container .price .s2{
+  clear: both;
+  vertical-align: bottom;
+  margin-top: 50px;
+}*/
+.container table{
+  background-color: hsl(225, 100%, 98%);
+  margin-left: 25px;
+  width: 300px;
+  padding: 3px 5px 3px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.container table td img{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container table td span{
+  font-weight: 900;
+  line-height: 30px;
+}
+.btn-1{
+  width: 300px;
+  margin-left: 25px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px hsl(225, 100%, 98%);
+  font-weight: 900;
+}
+.btn-2{
+  width: 300px;
+  margin-left: 25px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.container table td a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+.container table td a{
+  font-weight: 700;
+}
+.btn-1:hover{
+  cursor: pointer;
+  background-color: hsl(224, 23%, 55%);
+}
+.btn-2:hover{
+  cursor: pointer;
+  color: black;
+}
+.container table td .s2{
+  color: hsl(224, 23%, 55%);
+}
+@media only sreeen and (max-width: 375px){
+  body{
+    font-size: 10px;
+  }
+  .container{
+    width: auto;
+  }
+}
